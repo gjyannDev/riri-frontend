@@ -1,16 +1,18 @@
 {
   "expo": {
-    "name": "my-mobile-app",
-    "slug": "my-mobile-app",
+    "name": "riri-mobile",
+    "slug": "riri-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mymobileapp",
+    "scheme": "ririmobile",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.gjyanndev.ririmobile",
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.gjyanndev.ririmobile",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -45,8 +47,9 @@
         }
       },
       "eas": {
-        "projectId": "cd080f9f-7d0e-46fe-a514-a02fa7ee5b2f"
+        "projectId": "d25af240-a6b6-49e7-8b0b-79452db80daf"
       }
-    }
+    },
+    "owner": "gjyanndev"
   }
 }
